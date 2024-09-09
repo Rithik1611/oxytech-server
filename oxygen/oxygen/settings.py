@@ -128,7 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Firebase Admin SDK setup
-FIREBASE_CRED_PATH = os.path.join(BASE_DIR, '/home/TechAZsure/oxygenmonitoring/oxygen.json')  # Update the path to your JSON file
+FIREBASE_CRED_PATH = os.path.join(BASE_DIR, 'E:\Workspace\oxytech-server\oxytech-server\oxygen\oxygen\oxytech.json')  # Update the path to your JSON file
 
 cred = credentials.Certificate(FIREBASE_CRED_PATH)
 firebase_admin.initialize_app(cred, {
